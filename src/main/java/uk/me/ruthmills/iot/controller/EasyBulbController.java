@@ -22,19 +22,19 @@ public class EasyBulbController {
 		easyBulb = new MiLightWiFiBox("easybulb");
 	}
 
-	@RequestMapping("/off")
+	@RequestMapping(value = "/off", method = RequestMethod.GET)
 	@ResponseStatus(value = HttpStatus.OK)
 	public void off() throws IOException {
 		easyBulb.off();
 	}
 	
-	@RequestMapping("/off/{group}")
+	@RequestMapping(value = "/off/{group}", method = RequestMethod.GET)
 	@ResponseStatus(value = HttpStatus.OK)
 	public void off(@PathVariable Integer group) throws IOException {
 		easyBulb.off(group);
 	}
 	
-	@RequestMapping("/on")
+	@RequestMapping(value = "/on", method = RequestMethod.GET)
 	@ResponseStatus(value = HttpStatus.OK)
 	public void on() throws IOException {
 		easyBulb.on();
