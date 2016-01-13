@@ -1,6 +1,8 @@
 # iot-microservices-spring-boot
 Spring Boot application for Internet of Things microservices - currently works with EasyBulb/MiLight
 
+This leverages the MilightAPI code from stoman on GitHub - https://github.com/stoman/MilightAPI
+
 To start, run it as a Spring Boot application, and point a browser at http://localhost:61455/
 
 Available URLs are:
