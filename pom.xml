@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>uk.me.ruthmills.iot</groupId>
-	<artifactId>microservices</artifactId>
+	<artifactId>iot-microservices-spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>microservices</name>
+	<name>iot-microservices-spring-boot</name>
 	<description>Spring Boot application for Internet of Things microservices</description>
 
 	<parent>
