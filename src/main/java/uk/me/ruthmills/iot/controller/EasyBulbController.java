@@ -18,8 +18,12 @@ public class EasyBulbController {
 	
 	private MiLightWiFiBox easyBulb;
 	
-	public EasyBulbController() throws UnknownHostException {
-		easyBulb = new MiLightWiFiBox("easybulb");
+	public EasyBulbController() {
+		try {
+			easyBulb = new MiLightWiFiBox("easybulb");
+		} catch (UnknownHostException ex) {
+			ex.printStackTrace();
+		}
 	}
 
 	@RequestMapping(value = "/off", method = RequestMethod.GET)
