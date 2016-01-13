@@ -20,7 +20,7 @@ public class EasyBulbController {
 	
 	public EasyBulbController() {
 		try {
-			easyBulb = new MiLightWiFiBox("easybulb");
+			easyBulb = new MiLightWiFiBox("192.168.1.24");
 		} catch (UnknownHostException ex) {
 			ex.printStackTrace();
 		}
