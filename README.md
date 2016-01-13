@@ -3,7 +3,7 @@ Spring Boot application for Internet of Things microservices - currently works w
 
 This leverages the MilightAPI code from stoman on GitHub - https://github.com/stoman/MilightAPI
 
-To start, run it as a Spring Boot application, and point a browser at http://localhost:61455/
+To start, run it as a Spring Boot application, and point a browser at http://localhost:61455/ (you can change the port number in application.yaml)
 
 Available URLs are:
 
